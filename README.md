@@ -1,2 +1,2 @@
 # Anudip-python-projects
-It is a pyhton employee management project
+It is a python employee management project
