@@ -1,4 +1,5 @@
 # Employee Management System Using Python 
+
 from os import system
 import re
 # importing mysql connector
@@ -78,7 +79,7 @@ def check_employee_name(employee_name):
     c.execute(sql, data)
 
     # rowcount method to find number
-    # of row with given values
+    # of rowa with given values
     r = c.rowcount
     if r == 1:
         return True
