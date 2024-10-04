@@ -1,5 +1,4 @@
-# Employee Management System Using Python - BY AKASH MODANWAL
-
+# Employee Management System Using Python 
 from os import system
 import re
 # importing mysql connector
@@ -79,7 +78,7 @@ def check_employee_name(employee_name):
     c.execute(sql, data)
 
     # rowcount method to find number
-    # of rowa with given values
+    # of row with given values
     r = c.rowcount
     if r == 1:
         return True
